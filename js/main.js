@@ -16,7 +16,7 @@ request.onload = function () {
     //Con el .ForEach traemos todos los registros del Json
     //data.forEach => {
     
-    //Con el .some traemos solo una cierta cantidad de registros determinados por el desarrollador
+    //Con el .some traemos solo una cierta cantidad de registros determinados por la variable "index"
     data.data.some(function (id, index) {
       
       // Creamos una tarjeta
