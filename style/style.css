@@ -1,0 +1,357 @@
+/*Estilo aplicado a todo el sitio*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/*Estilo de cabecera*/
+header {
+  display: flex;
+  padding: 20px 50px 10px 50px;
+  justify-content: space-between;
+  box-shadow: 0px 10px 18px 0px rgba(179, 179, 179, 1); /*Sombra de la cabecera del sitio*/
+}
+
+.header_right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-around;
+}
+
+.header_right img {
+  height: 36px;
+  width: 36px;
+}
+
+hr {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(213, 40, 49, 0.9472163865546218) 0%,
+    rgba(121, 6, 20, 1) 20%,
+    rgba(228, 255, 0, 1) 40%,
+    rgba(183, 195, 33, 1) 60%,
+    rgba(29, 36, 214, 1) 80%,
+    rgba(41, 166, 167, 1) 100%
+  );
+  border-radius: 25px;
+  width: 720px;
+  height: 10px;
+}
+
+/*Estilo de clase principal*/
+.principal {
+  display: flex;
+}
+
+/*Estilo del menu de navegación desplegable*/
+#menu ul,
+li {
+  list-style: none;
+}
+
+#menu ul ul {
+  visibility: hidden;
+  position: absolute;
+}
+
+#menu ul li:hover > ul {
+  visibility: visible;
+}
+
+#menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+#menu span,
+#menu a {
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#menu li {
+  background: #dddddd;
+}
+
+#menu li:hover {
+  background: #f6f6f6;
+}
+
+#menu a {
+  color: #666666;
+  line-height: 160%;
+  padding: 11px 28px 11px 28px;
+  width: 253px;
+}
+
+#menu ul ul li {
+  background: #f6f6f6;
+}
+
+#menu ul ul li:hover {
+  background: #dddddd;
+}
+
+#menu ul ul li:hover a {
+  color: #666666;
+}
+
+#menu ul ul li ul li {
+  background: #dddddd;
+}
+
+#menu ul ul li ul li:hover {
+  background: #b7b7b7;
+}
+
+#menu .has-sub {
+  position: relative;
+}
+
+/*Estilo desplegable intendente*/
+#menuIntendencia ul ul {
+  visibility: hidden;
+  position: absolute;
+}
+
+#menuIntendencia ul li:hover > ul {
+  visibility: visible;
+  pointer-events: none;
+}
+
+#menuIntendencia span,
+#menuIntendencia a {
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#menuIntendencia a {
+  padding: 11px 28px 11px 28px;
+}
+
+#menuIntendencia ul ul li {
+  background: #f6f6f6;
+}
+
+#menuIntendencia .has-sub {
+  position: relative;
+}
+
+/*Estilo de barra lateral izquierda*/
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 40px 0px 40px;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  border-radius: 5px;
+}
+
+aside p {
+  font-size: larger;
+}
+
+.banners_aside img {
+  height: 98px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+aside img {
+  border-radius: 25px;
+}
+
+/*Estilo Noticias*/
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem;
+}
+
+/*Estilo de banners informativos centrales*/
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section hr {
+  background: black;
+  height: 5px;
+}
+
+section img {
+  height: 312px;
+  width: 297px;
+  border-radius: 25px;
+  padding: 10px;
+  align-items: end;
+}
+
+/*Estilo Redes RSS*/
+.social_rss {
+  padding: 30px;
+}
+
+/*Estilo sección contacto*/
+.contacto {
+  display: flex;
+  background-color: #d9d9d9;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mapa {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario_contacto {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  background-color: #212121;
+  border-radius: 15px;
+  width: 650px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+.send {
+  /*Botón de envió*/
+  width: 10em;
+  position: relative;
+  height: 3em;
+  border: 3px ridge #149cea;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.send::after {
+  /*Botón de envió antes*/
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.send::before {
+  /*Botón de envió después*/
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+}
+
+.send:hover::before,
+.send:hover::after {
+  /*Botón de envió durante*/
+  transform: scale(0);
+}
+
+.send:hover {
+  /*Botón de envió encima*/
+  box-shadow: inset 0px 0px 25px #1479ea;
+}
+
+/*Estilo Footer*/
+footer {
+  display: flex;
+  font-size: small;
+  background-color: black;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  padding: 2px;
+  color: white;
+}
+
+.devs {
+  font-size: smaller;
+}
