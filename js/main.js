@@ -42,7 +42,7 @@ request.onload = function () {
       imagenTarjeta.src = id.thumbnail.lqip;
 
       // Creamos el párrafo y le asignamos la descripción de la Noticia
-      id.descripcion = id.publication_history.substring(0, 250);
+      id.descripcion = id.artist_display.substring(0, 250);
 
       const descripcion = document.createElement("p");
       descripcion.setAttribute("class", "card-text");
