@@ -14,9 +14,10 @@ request.onload = function () {
     contenedor.setAttribute("class", "card-columns");
 
     //Con el .ForEach traemos todos los registros del Json
+    //Implementar en la sección interna de noticias
     //data.forEach => {
     
-    //Con el .some traemos solo una cierta cantidad de registros determinados por la variable "index"
+    //Con el .some traemos solo una cierta cantidad de registros determinados por el desarrollador
     data.data.some(function (id, index) {
       
       // Creamos una tarjeta
@@ -42,7 +43,7 @@ request.onload = function () {
       imagenTarjeta.src = id.thumbnail.lqip;
 
       // Creamos el párrafo y le asignamos la descripción de la Noticia
-      id.descripcion = id.artist_display.substring(0, 250);
+      id.descripcion = id.publication_history.substring(0, 250);
 
       const descripcion = document.createElement("p");
       descripcion.setAttribute("class", "card-text");
@@ -62,7 +63,7 @@ request.onload = function () {
       // Agregamos la descripción al cuerpo
       cuerpoTarjeta.appendChild(descripcion);
 
-      return index === 3;
+      return index === 5;
     });
   } else {
     //Generamos una advertencia en caso de que no retorne valor alguno desde el API
