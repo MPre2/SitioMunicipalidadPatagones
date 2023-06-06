@@ -382,3 +382,16 @@ footer p {
   font-size: smaller;
 }
 /*Fin estilo footer*/
+
+/*Media Query - Responsive style*/
+@media (max-width: 576px) {
+  /*Smartphone Display*/
+}
+
+@media (max-width: 768px) {
+  /*Tablet Display*/
+}
+
+@media (max-width: 992px) {
+  /*Landscape Tablet Display*/
+}
