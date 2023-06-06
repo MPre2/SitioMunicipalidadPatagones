@@ -62,6 +62,7 @@ hr {
   height: 10px;
 }
 
+/*Estilo central de la pagina underConstruction.html*/
 .centro {
   display: flex;
   flex-direction: column;
