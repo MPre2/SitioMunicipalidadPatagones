@@ -6,13 +6,13 @@
 }
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
   background-color: #f5f5f5;
 }
+/*Fin de estilo aplicado a todo el sitio*/
 
 /*Estilo del botón flotante para volver al inicio sin scroll*/
 /*.flotante {
@@ -25,6 +25,7 @@ body {
 .flotante img {
   height: 48px;
 }*/
+/*Fin estilo del botón flotante para volver al inicio sin scroll*/
 
 /*Estilo de cabecera*/
 header {
@@ -41,12 +42,12 @@ header {
   justify-content: space-around;
 }
 
-.header_right img {
+.header_right img { /*Tamaño de Iconos de redes*/
   height: 36px;
   width: 36px;
 }
 
-hr {
+hr { /*Linea gradiente de cabecera*/
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
@@ -61,6 +62,7 @@ hr {
   width: 720px;
   height: 10px;
 }
+/*Fin de estilo de la cabecera*/
 
 /*Estilo central de la pagina underConstruction.html*/
 .centro {
@@ -68,11 +70,13 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+/*Fin estilo central de la pagina underConstruction.html*/
 
 /*Estilo de clase principal*/
 .principal {
   display: flex;
 }
+/*Fin estilo de clase principal*/
 
 /*Estilo del menu de navegación desplegable*/
 #menu ul,
@@ -140,6 +144,7 @@ li {
 #menu .has-sub {
   position: relative;
 }
+/*Fin estilo del menu de navegación desplegable*/
 
 /*Estilo desplegable intendente*/
 #menuIntendencia ul ul {
@@ -171,6 +176,7 @@ li {
 #menuIntendencia .has-sub {
   position: relative;
 }
+/*Fin estilo desplegable intendente*/
 
 /*Estilo de barra lateral izquierda*/
 aside {
@@ -178,11 +184,6 @@ aside {
   flex-direction: column;
   padding: 25px 40px 0px 40px;
   align-items: center;
-}
-
-button {
-  width: 100px;
-  border-radius: 5px;
 }
 
 aside p {
@@ -200,34 +201,37 @@ aside p {
 aside img {
   border-radius: 25px;
 }
+/*Fin estilo de barra lateral izquierda*/
 
 /*Estilo Noticias*/
-.card {
+.card { /*Estilo de las tarjetas*/
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  text-align: center;
   padding: 10px 0px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
-.card-header {
+.card-header { /*Cabecera de la tarjeta*/
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-footer {
+.card-footer { /*Pie de tarjeta*/
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-columns {
+.card-columns { /*Cantidad de columnas y espaciado entre las mismas*/
   column-count: 3;
   column-gap: 1.25rem;
 }
+/*Fin estilo Noticias*/
 
 /*Estilo de banners informativos centrales*/
 section {
@@ -248,33 +252,35 @@ section img {
   padding: 10px;
   align-items: end;
 }
+/*Fin estilo de banners informativos centrales*/
 
 /*Estilo Redes RSS*/
 .social_rss {
   padding: 30px;
 }
+/*Fin estilo redes RSS*/
 
 /*Estilo sección contacto*/
-.contacto {
+.contacto { /*Estilo de la sección*/
   display: flex;
   background-color: #d9d9d9;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.mapa {
+.mapa { /*Estilo del mapa*/
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.formulario_contacto {
+.formulario_contacto { /*Estilo de formulario de contacto*/
   padding: 20px;
   text-align: center;
   font-weight: bold;
 }
 
-form {
+form { /*Disposición del formulario de contacto*/
   display: flex;
   background-color: #212121;
   border-radius: 15px;
@@ -286,7 +292,7 @@ form {
 
 input,
 textarea,
-select {
+select { /*Atributos de etiqueta*/
   border: none;
   outline: none;
   border-radius: 15px;
@@ -298,7 +304,7 @@ select {
 
 input:focus,
 textarea:focus,
-select:focus {
+select:focus { /*Atributo de foco*/
   background-color: white;
   transform: scale(1.05);
   box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
@@ -355,9 +361,10 @@ select:focus {
   /*Botón de envió encima*/
   box-shadow: inset 0px 0px 25px #1479ea;
 }
+/*Fin estilo sección contacto*/
 
 /*Estilo Footer*/
-footer {
+footer { /*Disposición de la sección*/
   display: flex;
   font-size: small;
   background-color: black;
@@ -374,3 +381,4 @@ footer p {
 .devs {
   font-size: smaller;
 }
+/*Fin estilo footer*/
