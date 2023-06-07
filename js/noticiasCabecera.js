@@ -62,6 +62,8 @@ request.onload = function () {
       // Agregamos la descripción al cuerpo
       cuerpoTarjeta.appendChild(descripcion);
 
+      console.log(window.location.pathname);
+    
       return index === 5;
     });
   } else {

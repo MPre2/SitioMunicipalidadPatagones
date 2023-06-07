@@ -182,7 +182,7 @@ li {
 aside {
   display: flex;
   flex-direction: column;
-  padding: 25px 40px 0px 40px;
+  padding: 25px 20px 0px 40px;
   align-items: center;
 }
 
@@ -204,6 +204,10 @@ aside img {
 /*Fin estilo de barra lateral izquierda*/
 
 /*Estilo Noticias*/
+.noticias {
+padding: 0px 50px 0px 0px;
+}
+
 .titulo a {
   text-decoration: none;
 }
