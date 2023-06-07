@@ -2,7 +2,7 @@
 const request = new XMLHttpRequest();
 
 // Llamamos al API Rest y abrimos la conexión
-request.open("GET", "https://api.artic.edu/api/v1/artworks", true);
+request.open("GET", "https://api.jikan.moe/v4/anime", true);
 
 // Cargamos la API
 request.onload = function () {
@@ -39,10 +39,10 @@ request.onload = function () {
       //Creamos la imagen de la tarjeta
       const imagenTarjeta = document.createElement("img");
       imagenTarjeta.setAttribute("class", "card-img-top");
-      imagenTarjeta.src = id.thumbnail.lqip;
+      imagenTarjeta.src = id.images.jpg.image_url;
 
       // Creamos el párrafo y le asignamos la descripción de la Noticia
-      id.descripcion = id.publication_history.substring(0, 250);
+      id.descripcion = id.synopsis.substring(0, 250);
 
       const descripcion = document.createElement("p");
       descripcion.setAttribute("class", "card-text");
@@ -62,7 +62,7 @@ request.onload = function () {
       // Agregamos la descripción al cuerpo
       cuerpoTarjeta.appendChild(descripcion);
 
-      return index === 2;
+      return index === 5;
     });
   } else {
     //Generamos una advertencia en caso de que no retorne valor alguno desde el API
