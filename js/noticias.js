@@ -62,7 +62,13 @@ request.onload = function () {
       // Agregamos la descripción al cuerpo
       cuerpoTarjeta.appendChild(descripcion);
 
-      return index === 14;
+      // Evaluamos cual es el PATHNAME del sitio y actuamos acorde al resultado
+      if (window.location.pathname != "/index.html") {
+        return index === 14;
+      } else {
+        return index === 5;
+      }
+      
     });
   } else {
     //Generamos una advertencia en caso de que no retorne valor alguno desde el API
