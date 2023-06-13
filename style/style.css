@@ -1,7 +1,7 @@
 /*Estilo aplicado a todo el sitio*/
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0; /*Modificar para cabecera del sitio*/
   padding: 0;
 }
 
@@ -34,6 +34,7 @@ header {
   padding: 20px 50px 10px 50px;
   justify-content: space-between;
   box-shadow: 0px 10px 18px 0px rgba(179, 179, 179, 1); /*Sombra de la cabecera del sitio*/
+  /*border-radius: 15px; INCLUIR PARA EFECTO REDONDEADO DEL SITIO, SE APLICA SOLO SI EL MARGEN NO EXISTE*/
 }
 
 .header_right {
