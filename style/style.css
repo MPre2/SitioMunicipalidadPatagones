@@ -288,6 +288,12 @@ aside img {
 }
 /*Fin estilo sección interna "El Partido"*/
 
+/*Estilo micro sitio educación*/
+.education {
+  padding: 25px 50px 0px 0px;
+}
+/*Fin estilo micro sitio educación*/
+
 /*Estilo de banners informativos centrales*/
 .informativos {
   display: flex;
