@@ -1,3 +1,6 @@
+
+/*MÉTODO PARA LA GENERACIÓN DE LAS TARJETAS DE NOTICIAS QUE SE VAN A VISUALIZAR TANTO EN LA PAGINA PRINCIPAL Y LA SECCIÓN DE NOTICIAS*/
+
 /*MÉTODO XMLHttpRequest para consumo de API REST*/
 const request = new XMLHttpRequest();
 
@@ -83,3 +86,12 @@ request.onload = function () {
 };
 
 request.send();
+
+//Funciones para el cambio de pages desde el home del sitio
+var partido = document.getElementById("elPartido");
+var noticias = document.getElementById("noticias");
+partido.style.display ="none"
+function pageChanger(e) {
+  noticias.style.display= "none";
+  partido.style.display = "block";
+}
