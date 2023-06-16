@@ -291,6 +291,24 @@ aside img {
 /*Estilo micro sitio educación*/
 .education {
   padding: 25px 50px 0px 0px;
+  text-align: justify;
+}
+
+/*Evaluar la posibilidad de incorporar el contenido de la sección educación dentro de un textarea importado de un archivo de texto plano*/
+/*.education textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}*/
+
+.education h1, h2, h5, i {
+  text-align: center;
+}
+
+.education li {
+  padding-left: 3%;
+  list-style:inside;
+  text-align: justify;
 }
 /*Fin estilo micro sitio educación*/
 
