@@ -1,0 +1,611 @@
+{
+    "Inicial": [
+        {
+            "Nombre": "J.I. Nº 901 - Marcelina Rial de Alvarez",
+            "Domicilio": "Barbieri 20",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461069"
+        },
+        {
+            "Nombre": "J.I. Nº 902 - Hugo Stroeder",
+            "Domicilio": "Hugo Stroeder 29",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491331"
+        },
+        {
+            "Nombre": "J.I. Nº 903",
+            "Domicilio": "Los Pozos y Manuel Belgrano",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 492171"
+        },
+        {
+            "Nombre": "J.I. Nº 904 - Comandante Luis Piedrabuena",
+            "Domicilio": "Belgrano 213",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464853"
+        },
+        {
+            "Nombre": "J.I. Nº 905",
+            "Domicilio": "Lorenzo Wintter 365",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464833"
+        },
+        {
+            "Nombre": "J.I. Nº 906",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 493087"
+        },
+        {
+            "Nombre": "J.I. Nº 907",
+            "Domicilio": "Fca. Sanchez de Rial Y Buenos Aires",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461303"
+        },
+        {
+            "Nombre": "J.I. Nº 908 - Basilio Villarino",
+            "Domicilio": "Sassentoerg s/n",
+            "Localidad": "Bahia San Blas",
+            "Telefono": "Tel: (2920) 499420"
+        },
+        {
+            "Nombre": "J.I. Nº 909",
+            "Domicilio": "17 de Agosto s/n",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2920) 446520"
+        },
+        {
+            "Nombre": "J.I. Nº 910",
+            "Domicilio": "Sarmiento 750",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 463789"
+        },
+        {
+            "Nombre": "J.I. Nº 911",
+            "Domicilio": "Jaime Harris y Coronel Pereyra",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461882"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 1",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Jose B. Casas",
+            "Telefono": "Tel: (2920) 15446569"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 2",
+            "Domicilio": "Colonia Migliori",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2920) 409873"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 31",
+            "Domicilio": "Colonia San Luis",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 4750677"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 4 - Las Ardillitas",
+            "Domicilio": "Colonia San Francisco",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2920) 15446570"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 5",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Cardenal Cagliero",
+            "Telefono": "Tel: (2920) 15446521"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 6",
+            "Domicilio": "Colonia San Luis",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 4278060"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 7",
+            "Domicilio": "Colonia El Guanaco",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 8",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 9",
+            "Domicilio": "Colonia Los Álamos",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 4121831"
+        },
+        {
+            "Nombre": "J.I.R.I.M.M Nº 10",
+            "Domicilio": "Paso Alsina",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 4144761"
+        },
+        {
+            "Nombre": "Jardín de Infantes - Juanito Bosco",
+            "Domicilio": "Maestro Gonzalez 422",
+            "Localidad": "Carmen de Patagones"
+        }
+    ],
+    "Primaria": [
+        {
+            "Nombre": "E.P.B Nº 1 - Jose Gabriel de la Oyuela",
+            "Domicilio": "Colonia 7 de Marzo",
+            "Localidad": "Cardenal Cagliero",
+            "Telefono": "Tel: (2920) 15606330"
+        },
+        {
+            "Nombre": "E.P.B Nº2 - Bartolomé Mitre",
+            "Domicilio": "Comodoro Rivadavia 151",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461398"
+        },
+        {
+            "Nombre": "E.P.B Nº 4 - Juan Bautista Alberdi",
+            "Domicilio": "Calle 3 Nº 128",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 493011"
+        },
+        {
+            "Nombre": "E.P.B Nº 6 - Bernardino Rivadavia",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Paraje Laguna Grande"
+        },
+        {
+            "Nombre": "E.P.B Nº 7 - Islas Malvinas",
+            "Domicilio": "Kennedy s/n",
+            "Localidad": "Bahia San Blas",
+            "Telefono": "Tel: (2920) 15579856 partic."
+        },
+        {
+            "Nombre": "E.P.B Nº 8 - General San Martin",
+            "Domicilio": "San Lorenzo 37",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464837"
+        },
+        {
+            "Nombre": "E.P.B Nº 9 - Domingo Faustino Sarmiento",
+            "Domicilio": "25 de Mayo 548",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491187"
+        },
+        {
+            "Nombre": "E.P.B Nº 10 - María Auxiliadora",
+            "Domicilio": "Pje. Pozo Coronel",
+            "Localidad": "Cardenal Cagliero"
+        },
+        {
+            "Nombre": "E.P.B Nº 11 - Hipólito Irigoyen",
+            "Domicilio": "25 de Mayo 548",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461276"
+        },
+        {
+            "Nombre": "E.P.B Nº 12 - Nuestra Señora del Carmen",
+            "Domicilio": "San Martin s/n",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 492122"
+        },
+        {
+            "Nombre": "E.P.B Nº 13 General Manuel Belgrano",
+            "Domicilio": "Zona Rural",
+            "Localidad": "J. B. Casas",
+            "Telefono": "Tel: (2920) 15446569"
+        },
+        {
+            "Nombre": "E.P.B Nº 14 - Mariano Zambonini",
+            "Domicilio": "Jaime Harris 41",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464102"
+        },
+        {
+            "Nombre": "E.P.B Nº 15 - Tambor de Tacuari",
+            "Domicilio": "Balneario Los Pocitos",
+            "Localidad": "Los Pocitos"
+        },
+        {
+            "Nombre": "E.P.B Nº 16 - Nicolás Avellaneda",
+            "Domicilio": "Colonia San Jose",
+            "Localidad": "Cardenal Cagliero",
+            "Telefono": "Tel: (2920) 15446580"
+        },
+        {
+            "Nombre": "E.P.B Nº 18 - Martin Miguel de Güemes",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 15446570"
+        },
+        {
+            "Nombre": "E.P.B Nº 19 - Almirante Guillermo Brown",
+            "Domicilio": "Colonia La Graciela",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2920) 15446511"
+        },
+        {
+            "Nombre": "E.P.B Nº 20",
+            "Domicilio": "Paso Alsina",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 420022"
+        },
+        {
+            "Nombre": "E.G.B Nº 21 - Juan Gomez de la Pinta",
+            "Domicilio": "Celedonio Miguel s/n",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461725"
+        },
+        {
+            "Nombre": "E.G.B Nº 22 Niñas de Ayohuma",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 15446571"
+        },
+        {
+            "Nombre": "E.G.B Nº 23 - Remedios Escalada de San Martín",
+            "Domicilio": "Colonia La Beba",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 15446337"
+        },
+        {
+            "Nombre": "E.G.B Nº 24 Mariano Moreno",
+            "Domicilio": "Colonia El Guanaco",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 15446572"
+        },
+        {
+            "Nombre": "E.G.B Nº 25 - Subteniente Sebastián Oliverares",
+            "Domicilio": "Zona Rural"
+        },
+        {
+            "Nombre": "E.G.B Nº 26 - San Francisco del Monte de Oro",
+            "Domicilio": "Colonia Los Alamos",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "E.G.B Nº 27 - Nuestra Señora Stella Maris",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Igarzabal",
+            "Telefono": "Tel: (291) 15446573"
+        },
+        {
+            "Nombre": "E.G.B Nº 28",
+            "Domicilio": "Estancia Balbuena",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 493055"
+        },
+        {
+            "Nombre": "E.G.B Nº 29 - C. La Delfina",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 15446581"
+        },
+        {
+            "Nombre": "E.G.B Nº 30 - José Manuel Estrada",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Cardenal Cagliero",
+            "Telefono": "Tel: (2920) 15446767"
+        },
+        {
+            "Nombre": "E.G.B Nº 31 - 7 de Marzo",
+            "Domicilio": "Colonia 7 de Marzo",
+            "Localidad": "Cardenal Cagliero",
+            "Telefono": "Tel: (2920) 15446520"
+        },
+        {
+            "Nombre": "E.G.B Nº 32 - Juan Bautista Cabral",
+            "Domicilio": "Zona Rural",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "E.G.B Nº 33 - Francisca Sanchez de Rial",
+            "Domicilio": "Colonia El Molino",
+            "Localidad": "Villalonga"
+        },
+        {
+            "Nombre": "E.G.B Nº 34 - Santiago J. Bynon",
+            "Domicilio": "Colonia San Luis",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 15446523"
+        },
+        {
+            "Nombre": "E.G.B Nº 35 - Ceferino Namuncurá",
+            "Domicilio": "Colonia San Luis",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "E.G.B Nº 36 - Julio Argentino Roca",
+            "Domicilio": "Meridiano V",
+            "Localidad": "Carmen de Patagones"
+        },
+        {
+            "Nombre": "E.G.B Nº 37 - Fray Justo Santa Maria de Oro",
+            "Domicilio": "Zona Rural",
+            "Localidad": "J. B. Casas",
+            "Telefono": "Tel: (2920) 15446766"
+        },
+        {
+            "Nombre": "E.G.B Nº 38",
+            "Domicilio": "Neuquén e/Italia y 17 de Agosto",
+            "Localidad": "Villalonga"
+        },
+        {
+            "Nombre": "E.G.B Nº 39",
+            "Domicilio": "Stroeder",
+            "Localidad": "Stroeder"
+        },
+        {
+            "Nombre": "Colegio - Maria Auxiliadora",
+            "Domicilio": "Marcelino Crespo 20",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461212"
+        },
+        {
+            "Nombre": "Escuela - La Divina Providencia",
+            "Domicilio": "San Francisco 337",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491015"
+        },
+        {
+            "Nombre": "Escuela - San José",
+            "Domicilio": "7 de Marzo 85",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 462632"
+        }
+    ],
+    "Media": [
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº1 Paso Alsina",
+            "Domicilio": "San Martin y Los Pozos",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 492107"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº2 Islas Malvinas",
+            "Domicilio": "San Lorenzo 169",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461224"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº3 7 de Marzo",
+            "Domicilio": "Buenos Aires y Juan de la Piedra",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464839"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº4",
+            "Domicilio": "Calle 3 123",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (2928) 493067"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº5",
+            "Domicilio": "Kennedy s/n",
+            "Localidad": "Bahia San Blas",
+            "Telefono": "Tel: (2920) 499288"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº6",
+            "Domicilio": "Celedonio Miguel s/n",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461725"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº7 Cardenal Cagliero",
+            "Domicilio": "Don Bosco 375",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491030"
+        },
+        {
+            "Nombre": "Escuela de Educación Secundaria Nº8",
+            "Domicilio": "San Lorenzo 37",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464837"
+        },
+        {
+            "Nombre": "Instituto San José",
+            "Domicilio": "7 de Marzo 85",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461632"
+        },
+        {
+            "Nombre": "Instituto Maria Auxiliadora",
+            "Domicilio": "Marcelino Crespo 20",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461212"
+        },
+        {
+            "Nombre": "Instituto Cardenal Cagliero",
+            "Domicilio": "Don Bosco 375",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491320"
+        }
+    ],
+    "Secundaria Tecnica": [
+        {
+            "Nombre": "Escuela de educación secundaria técnica Nº 1",
+            "Domicilio": "Jaime Harris 41",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 15548438 | (2920)15618354"
+        },
+        {
+            "Nombre": "Centro educativo para la producción total nº 23",
+            "Domicilio": "Paraje Igarzabal ruta nacional Nº 3 Sur KM.837",
+            "Localidad": "Juan A. Pradere",
+            "Telefono": "Tel: (291) 4724356"
+        },
+        {
+            "Nombre": "Escuela de educación secundaria agraria nº1 Carlos Spegazzini",
+            "Domicilio": "Leblanc s/n",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461192"
+        }
+    ],
+    "Superior": [
+        {
+            "Nombre": "Instituto Superior de Formación Docente (I.S.F.D.) Nº 25",
+            "Domicilio": "Alsina 28",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 462335"
+        },
+        {
+            "Nombre": "Centro de Investigación Educativa (C.I.E.)",
+            "Domicilio": "Olivera 67",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464832"
+        },
+        {
+            "Nombre": "Universidad Provincial del Sudoeste",
+            "Domicilio": "Lavalle 40",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Telefax: (2920) 464114"
+        },
+        {
+            "Nombre": "Centro Regional Universitario Zona Atlántica (CURZA)",
+            "Domicilio": "Monseñor Esandi y Ayacucho",
+            "Localidad": "Viedma",
+            "Telefono": "Tel: (2920) 422921"
+        },
+        {
+            "Nombre": "Universidad de Río Negro",
+            "Domicilio": "Colón 450",
+            "Localidad": "Viedma"
+        },
+        {
+            "Nombre": "Universidad Blas Pascal",
+            "Domicilio": "Saavedra 1168",
+            "Localidad": "Viedma",
+            "Telefono": "Tel: (2920) 432266"
+        }
+    ],
+    "Adultos": [
+        {
+            "Nombre": "C.E.A. Nº 701",
+            "Domicilio": "J. Harris 41",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464841"
+        },
+        {
+            "Nombre": "Centro de Adultos Nº 705",
+            "Domicilio": "San Martin S/N",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 5719241"
+        },
+        {
+            "Nombre": "CEA Nº 702/01",
+            "Domicilio": "25 de Mayo 485",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461276"
+        },
+        {
+            "Nombre": "Centro de Adultos Nº 707/09",
+            "Domicilio": "Zona Rural - Igarzabal",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "CEA Nº 710/01",
+            "Domicilio": "7 de Marzo 790",
+            "Localidad": "Carmen de Patagones"
+        },
+        {
+            "Nombre": "CEA Nº 704",
+            "Domicilio": "Domingo de Oro y Sor Vallese",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464878"
+        },
+        {
+            "Nombre": "C.E.N.S. Nº 451",
+            "Domicilio": "Río Negro 133",
+            "Localidad": "Stroeder"
+        },
+        {
+            "Nombre": "Centro de Formación Profesional Nº 401",
+            "Domicilio": "Bernardino Rivadavia 427",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464792"
+        },
+        {
+            "Nombre": "CEA Nº 708/09",
+            "Domicilio": "Colonia Los Álamos",
+            "Localidad": "Juan A. Pradere"
+        },
+        {
+            "Nombre": "CEA Nº 709/09",
+            "Domicilio": "Colonia Barga",
+            "Localidad": "Juan A. Pradere"
+        }
+    ],
+    "Artistica": [
+        {
+            "Nombre": "Escuela de Arte Nº1 Alcides Biagetti",
+            "Domicilio": "Buenos Aires",
+            "Localidad": "Carmen de Patagones"
+        },
+        {
+            "Nombre": "Escuela Estética Nº1 Rosario Etcheguren de Dell'Agnolo",
+            "Domicilio": "Comodoro Rivadavia 257",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464834"
+        }
+    ],
+    "Especial": [
+        {
+            "Nombre": "Escuela Especial Nº501 Comandante Luis Piedrabuena",
+            "Domicilio": "Roca 20",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461466"
+        },
+        {
+            "Nombre": "Escuela Especial Nº 502",
+            "Domicilio": "Belgrano y Bv. Patagones",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 492562"
+        },
+        {
+            "Nombre": "Centro de Formación Laboral Nº 1",
+            "Domicilio": "Villegas 270",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461221"
+        },
+        {
+            "Nombre": "Escuela N° 542 (anexo)",
+            "Domicilio": "Río Negro 133",
+            "Localidad": "Stroeder",
+            "Telefono": "Tel: (2920) 491428"
+        }
+    ],
+    "Fisica": [
+        {
+            "Nombre": "Centro de Educación Física (C.E.F. Nº 110)",
+            "Domicilio": "Vieja bodega",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 461575"
+        },
+        {
+            "Nombre": "Centro de Educación Física (C.E.F. N° 166)",
+            "Domicilio": "San Martín",
+            "Localidad": "Villalonga",
+            "Telefono": "Tel: (2928) 492122"
+        },
+        {
+            "Nombre": "Escuela de Formación Profesional de Guardavidas",
+            "Domicilio": "Instituto de Formación Docente Nº 25",
+            "Localidad": "Carmen de Patagones"
+        }
+    ],
+    "Psicologia": [
+        {
+            "Nombre": "Centro de Estimulación y Aprendizaje Temprano (C.E.A.T.)",
+            "Domicilio": "Dr. Baraja 690",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 463973"
+        },
+        {
+            "Nombre": "Centro de Educación Complementaria (C.E.C) Nº 1",
+            "Domicilio": "Mejico 460",
+            "Localidad": "Carmen de Patagones",
+            "Telefono": "Tel: (2920) 464889"
+        }
+    ]
+}
