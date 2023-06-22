@@ -310,6 +310,17 @@ aside img {
   list-style:inside;
   text-align: justify;
 }
+
+.card-columns-school {
+  /*Cantidad de columnas y espaciado entre las mismas*/
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.school {
+  text-align: center;
+  padding-top: 3%;
+}
 /*Fin estilo micro sitio educación*/
 
 /*Estilo de banners informativos centrales*/
