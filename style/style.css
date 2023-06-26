@@ -1,7 +1,8 @@
 /*Estilo aplicado a todo el sitio*/
 * {
   box-sizing: border-box;
-  margin: 0; /*Modificar para cabecera del sitio*/
+  margin: 0;
+  /*Modificar para cabecera del sitio*/
   padding: 0;
 }
 
@@ -13,6 +14,7 @@ html {
 body {
   background-color: #f5f5f5;
 }
+
 /*Fin de estilo aplicado a todo el sitio*/
 
 /*Estilo del botón flotante para volver al inicio sin scroll*/
@@ -33,7 +35,8 @@ header {
   display: flex;
   padding: 20px 50px 10px 50px;
   justify-content: space-between;
-  box-shadow: 0px 10px 18px 0px rgba(179, 179, 179, 1); /*Sombra de la cabecera del sitio*/
+  box-shadow: 0px 10px 18px 0px rgba(179, 179, 179, 1);
+  /*Sombra de la cabecera del sitio*/
   /*border-radius: 15px; INCLUIR PARA EFECTO REDONDEADO DEL SITIO, SE APLICA SOLO SI EL MARGEN NO EXISTE*/
 }
 
@@ -66,6 +69,7 @@ hr {
   width: 720px;
   height: 10px;
 }
+
 /*Fin de estilo de la cabecera*/
 
 /*Estilo central de la pagina underConstruction.html*/
@@ -74,12 +78,14 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+
 /*Fin estilo central de la pagina underConstruction.html*/
 
 /*Estilo de clase principal*/
 .principal {
   display: flex;
 }
+
 /*Fin estilo de clase principal*/
 
 /*Estilo del menu de navegación desplegable*/
@@ -148,6 +154,7 @@ li {
 #menu .has-sub {
   position: relative;
 }
+
 /*Fin estilo del menu de navegación desplegable*/
 
 /*Estilo desplegable intendente*/
@@ -180,6 +187,7 @@ li {
 #menuIntendencia .has-sub {
   position: relative;
 }
+
 /*Fin estilo desplegable intendente*/
 
 /*Estilo de barra lateral izquierda*/
@@ -205,6 +213,7 @@ aside p {
 aside img {
   border-radius: 25px;
 }
+
 /*Fin estilo de barra lateral izquierda*/
 
 /*Estilo Noticias*/
@@ -257,6 +266,7 @@ aside img {
   column-count: 3;
   column-gap: 1rem;
 }
+
 /*Fin estilo Noticias*/
 
 /*Estilo sección interna "El Partido"*/
@@ -264,7 +274,8 @@ aside img {
   padding: 25px 50px 0px 0px;
 }
 
-.elPartido h2, h3 {
+.elPartido h2,
+h3 {
   text-align: center;
 }
 
@@ -283,9 +294,10 @@ aside img {
 
 .elPartido li {
   padding-left: 3%;
-  list-style:inside;
+  list-style: inside;
   text-align: justify;
 }
+
 /*Fin estilo sección interna "El Partido"*/
 
 /*Estilo micro sitio educación*/
@@ -301,13 +313,16 @@ aside img {
   resize: none;
 }*/
 
-.education h1, h2, h5, i {
+.education h1,
+h2,
+h5,
+i {
   text-align: center;
 }
 
 .education li {
   padding-left: 3%;
-  list-style:inside;
+  list-style: inside;
   text-align: justify;
 }
 
@@ -317,10 +332,6 @@ aside img {
   column-gap: 1rem;
 }
 
-.school {
-  text-align: center;
-  padding-top: 3%;
-}
 /*Fin estilo micro sitio educación*/
 
 /*Estilo de banners informativos centrales*/
@@ -342,6 +353,7 @@ aside img {
   padding: 10px;
   align-items: end;
 }
+
 /*Fin estilo de banners informativos centrales*/
 
 /*Estilo Redes RSS*/
@@ -350,6 +362,7 @@ aside img {
   justify-content: center;
   padding: 30px;
 }
+
 /*Fin estilo redes RSS*/
 
 /*Estilo sección contacto*/
@@ -466,6 +479,7 @@ select:focus {
   /*Botón de envió encima*/
   box-shadow: inset 0px 0px 25px #1479ea;
 }
+
 /*Fin estilo sección contacto*/
 
 /*Estilo Footer*/
@@ -487,6 +501,7 @@ footer p {
 .devs {
   font-size: smaller;
 }
+
 /*Fin estilo footer*/
 
 /*Media Query - Responsive style*/

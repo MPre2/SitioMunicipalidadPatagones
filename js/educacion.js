@@ -5,8 +5,8 @@ escuela = document.getElementById("school");
 
 function tablaEscuelas(nivel) {
   // Función principal para la muestra de los distintos registros del JSON
-  // Llamamos al JSON
   escuela.style.display = "block";
+  // Llamamos al JSON
   fetch("../assets/Json/escuelas.json")
     .then((response) => response.json())
     .then((escuelas) => mostrarEscuelas(escuelas)) // Invocamos a la función para mostrar las escuelas en display
