@@ -328,11 +328,20 @@ i {
 
 .card-columns-school {
   /*Cantidad de columnas y espaciado entre las mismas*/
-  column-count: 3;
-  column-gap: 1rem;
+  column-count: 2;
+  column-gap: 1.5rem;
+  padding: 2%;
 }
 
 /*Fin estilo micro sitio educación*/
+
+/*Estilo Micro sitio Historia*/
+
+#periodosHistoricos {
+  padding: 1%;
+}
+
+/*Fin estilo de periodos historicos*/
 
 /*Estilo de banners informativos centrales*/
 .informativos {

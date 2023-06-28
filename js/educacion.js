@@ -51,8 +51,8 @@ function tablaEscuelas(nivel) {
       // Recorremos el arreglo y mostramos en pantalla los resultados
       html += `
         <tr>
-          <td>${nivel[i].Nombre}</td><br>
-          <td>${nivel[i].Domicilio}</td> - 
+          <td><h4>${nivel[i].Nombre}</h4></td>
+          <td>${nivel[i].Domicilio}</td> -
           <td>${nivel[i].Localidad}</td><br>
           <td>${nivel[i].Telefono}</td><br>
         </tr>
