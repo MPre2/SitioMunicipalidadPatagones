@@ -341,7 +341,39 @@ i {
   padding: 1%;
 }
 
+#sitiosHistoricos {
+  width: 75%;
+  padding: 2%;
+  text-align: justify;
+}
+
+.sitio {
+  /*Estilo de la imagen correspondiente a la seccion "Sitios Historicos"*/
+  width: 70%;
+  float: left;
+  margin-right: 1%;
+}
+
+#leyendaPeriodosHistoricos {
+  /*Textarea*/
+  width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: medium;
+  padding: 2%;
+}
+
 /*Fin estilo de periodos historicos*/
+
+/*Inicio seccion Localidades*/
+
+#map {
+  width: 800px;
+  height: 500px;
+  margin: 2% 2% 2% 15%;
+}
+
+/*Fin seccion Localidades*/
 
 /*Estilo de banners informativos centrales*/
 .informativos {

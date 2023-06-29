@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Behavioral Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Core Meta Data -->
+    <meta content="HollowDevs" name="author" />
+    <meta
+      content="Micro sitio localidades del Municipio del partido de Patagones"
+      name="Educación - Municipio Patagones"
+    />
+    <meta
+      content="Patagones, Municipalidad, Partido de Patagones, Carmen de Patagones"
+      name="keywords"
+    />
+    <!-- Open Graph Meta Data -->
+    <meta content="Sitio del Municipio del Partido de Patagones" />
+    <meta content="HollowDevs" />
+    <meta content="HollowDevs" />
+    <meta content="website" />
+    <meta content="localidades.html" />
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <!--Styles-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!--Hoja de estilo aplicado al framework-->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <!--Framework para el manejo de Mapas-->
+    <link rel="stylesheet" href="../style/style.css" />
+    <!--Site Name-->
+    <title>Patagones Municipio</title>
+  </head>
+
+  <body>
+    <!--Volver al inicio del sitio sin scroll-->
+    <a
+      href="#up"
+      duraction="5000"
+      height-hide="900"
+      easing="easeInOutQuint"
+      class="simplescrollup__button simplescrollup__button--show"
+      ><i class="icon-circle-up"> </i
+    ></a>
+    <!--<a class='flotante' href='#' ><img src='./assets/flecha-arriba.png' border="0"/></a>-->
+    <header>
+      <!--Cabecera del Sitio-->
+      <img src="/assets/LogoMunicipio.png" alt="Logo Municipio" height="69px" />
+      <div class="header_right">
+        <div class="social_icons">
+          <!--Enlaces a las redes sociales-->
+          <a
+            href="https://www.facebook.com/Municipalidad-de-Patagones-151767454963783/"
+            ><img src="/assets/icons8-facebook-48.png" alt="Icono Facebook"
+          /></a>
+          <a href="https://www.twitter.com/patagones_muni"
+            ><img src="/assets/icons8-twitter-48.png" alt="icono Twitter"
+          /></a>
+          <a href="https://www.youtube.com/channel/UCkKJNLdjE14UAToRUFBLfDQ/"
+            ><img src="/assets/icons8-youtube-48.png" alt="Icono YouTube"
+          /></a>
+          <a href="#"
+            ><img src="/assets/icons8-instagram-48.png" alt="Icono Instagram"
+          /></a>
+        </div>
+        <hr />
+        <!--Barra de separación-->
+      </div>
+    </header>
+
+    <main>
+      <div class="principal">
+        <!--Principal-->
+        <aside>
+          <h1>Localidades</h1>
+          <br />
+          <!--Barra lateral izquierda-->
+          <div id="menu">
+            <!--Menu desplegable-->
+            <ul>
+              <li class="has-sub">
+                <a title="" href="#">Planos por Localidad</a>
+                <ul>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Bahia_San_Blas.pdf"
+                      >Bahia San Blas</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Cagliero.pdf"
+                      >Cardenal Cagliero</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Casas.pdf"
+                      >Jose B. Casas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      title=""
+                      href="/assets/planos/plano_Partido_Patagones.pdf"
+                      >Partido de Patagones</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Pocitos.pdf"
+                      >Los Pocitos</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Pradere.pdf"
+                      >Juan A. Pradere</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Stroeder.pdf"
+                      >Stroeder</a
+                    >
+                  </li>
+                  <li>
+                    <a title="" href="/assets/planos/plano_Villalonga.pdf"
+                      >Villalonga</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="has-sub"><a title="" href="/index.html">Volver</a></li>
+            </ul>
+          </div>
+        </aside>
+        <div id="map"></div>
+      </div>
+      <script type="text/javascript" src="/js/localidades.js"></script>
+    </main>
+
+    <footer>
+      <!--Pie de Sitio-->
+      <p>&copy2023 All Right Reserved - Municipalidad de Patagones ||</p>
+      <p class="devs">Design & developed by</p>
+      <img
+        src="/assets/logo-no-background.png"
+        alt="Logo Hollow Devs"
+        height="44px"
+        width="138px"
+      />
+    </footer>
+  </body>
+</html>

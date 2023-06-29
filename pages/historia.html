@@ -76,12 +76,14 @@
             <!--Menu desplegable-->
             <ul>
               <li class="has-sub">
-                <a title="" href="/pages/underConstruction.html"
+                <a title="" href="#"
                   >Sitios Históricos</a
                 >
                 <ul>
                   <li>
-                    <a title="" href="#">Casa de la Cultura</a>
+                    <a title="" href="#" onclick="verSitios()"
+                      >Casa de la Cultura</a
+                    >
                   </li>
                   <li>
                     <a title="" href="#">Chata "La Pichona"</a>
@@ -118,7 +120,7 @@
                     >
                   </li>
                   <li>
-                    <a title="" href="#" onclick="">Volver</a>
+                    <a title="" href="/pages/historia.html">Volver</a>
                   </li>
                 </ul>
               </li>
@@ -210,7 +212,59 @@
           <br /><br />
         </section>
         <section id="sitiosHistoricos">
-          <!--Sección dedicada al contenido de los distintos sitios historicos-->
+          <!--Sección dedicada al contenido de los distintos sitios historicos // Se realiza la carga de un objeto como ejemplo, el proyecto contemplara una DataBase o JSON con los datos eh imágenes correspondientes-->
+          <img
+            class="sitio"
+            src="/assets/Casa de la Cultura.jpg"
+            alt="Casa de la Cultura"
+          />
+          <p>
+            La Casa de La Cultura, ubicada en la calle Mitre Nº 27, constituye
+            otra de las delicadas expresiones de la arquitectura popular
+            maragata; paredes de barro y paja, tirantes marcados a golpe de
+            hacha, entramado de varas de mimbre atadas con tientos de cuero,
+            tejas de barro, patio amplio y luminoso hacia el que convergen las
+            habitaciones, emplazamiento en una esquina sin ochaba. Este edificio
+            también es denominado “Casa de la Tahona” pues aquí estuvo instalada
+            uno de esos rudimentarios artefactos utilizados para obtener la
+            harina de trigo. <br /><br />No se conoce la fecha exacta de
+            construcción pero si se sabe fehacientemente que a principios de la
+            década del 1820 se levantaron tres viviendas de similares
+            características: el Rancho Rial, La Carlota y la tercera la que nos
+            ocupa. <br /><br />Es fiel testimonio del naciente proceso económico
+            y social acontecido en la aldea de Patagones tras su vinculación
+            económica con Buenos Aires, pues la economía del saladero en el Río
+            de la Plata atrajo a negociantes que llegaban a la zona en busca del
+            producto de las ricas salinas, animales para la faena y mano de
+            obra. En ese contexto, se establecieron también saladeristas,
+            hacendados y comerciantes. <br /><br />La presencia en la ciudad de
+            gente de una posición económica relativamente holgada llevó al
+            comandante José Gabriel de la Oyuela a solicitar en 1821 a
+            Bernardino Rivadavia que le enviara albañiles que estuvieran en
+            condiciones de levantar viviendas dignas de esas personas. Rivadavia
+            mandó entonces a dos diestros albañiles en condición de forzados, ya
+            que no encontró ninguno que quisiera venir voluntariamente.
+            <br /><br />Esta casa perteneció a Don Bernandino Bartruille, uno de
+            los primeros pobladores de Patagones, vecino que realizo numerosas
+            donaciones en vida y por testamento dejó en herencia esta casa a uno
+            de sus sobrinos con la condición de que con lo producido de la
+            tahona y allí instalada se solventó el sostenimiento de la escuela
+            pública. <br /><br />Con los Rial y luego con los Bartruille, ésta
+            casa se distinguió por el lujo que reinaba en todas sus
+            habitaciones, muy común; por otra parte; en todos los hogares
+            pudientes de El Carmen. Fue adquirida por un grupo de vecinos y
+            donada a la Municipalidad. <br /><br />
+            Como toda construcción tan antañosa, el Municipio de Patagones a
+            través del Plan de Valorización del Patrimonio Histórico efectuó la
+            intervención física sobre la misma planteando el rescate de
+            metodologías constructivas olvidadas en el tiempo, trabajos que se
+            han ido perdiendo por el avance de nuevas tecnologías y formas de
+            construir. <br /><br />Hoy en este impecable edificio funciona la
+            Dirección de Cultura, donde el visitante puede admirar la
+            construcción y disfrutar de las exposiciones, muestras y otras
+            actividades que se hallan en el lugar. Es Monumento Histórico
+            Nacional.
+          </p>
         </section>
         <section id="museos">
           <!--Seccion dedicada al contenido de los distintos museos-->
@@ -218,16 +272,10 @@
         <section id="periodosHistoricos">
           <textarea
             name="periodos"
-            id=""
-            cols="125"
+            id="leyendaPeriodosHistoricos"
+            cols="200"
             rows="28"
             readonly
-            style="
-              font-family: Arial, Helvetica, sans-serif;
-              text-align: center;
-              font-size: medium;
-              padding: 2%;
-            "
           >
                Primer período histórico: 1779-1820
 Único Pueblo en la Patagonia defendiendo el dominio Español.
