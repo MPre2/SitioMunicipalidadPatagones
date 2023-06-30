@@ -348,7 +348,7 @@ i {
 }
 
 .sitio {
-  /*Estilo de la imagen correspondiente a la seccion "Sitios Historicos"*/
+  /*Estilo de la imagen correspondiente a la sección "Sitios Historicos"*/
   width: 70%;
   float: left;
   margin-right: 1%;
@@ -361,19 +361,37 @@ i {
   text-align: center;
   font-size: medium;
   padding: 2%;
+  resize: none;
+  background: #d8dddf;
 }
 
-/*Fin estilo de periodos historicos*/
+/*Fin estilo de periodos históricos*/
 
-/*Inicio seccion Localidades*/
+/*Inicio sección Localidades*/
 
-#map {
-  width: 800px;
+#localidad { /*Div*/
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+  align-items: center;
+}
+
+#leyenda { /*Textarea*/
+  width: 90%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+  resize: none;
+  background: #d8dddf;
+}
+
+#map { /*Mapa*/
+  width: 500px;
   height: 500px;
-  margin: 2% 2% 2% 15%;
+  margin: 2%;
 }
 
-/*Fin seccion Localidades*/
+/*Fin sección Localidades*/
 
 /*Estilo de banners informativos centrales*/
 .informativos {

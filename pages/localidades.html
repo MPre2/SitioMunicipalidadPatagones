@@ -9,7 +9,7 @@
     <meta content="HollowDevs" name="author" />
     <meta
       content="Micro sitio localidades del Municipio del partido de Patagones"
-      name="Educación - Municipio Patagones"
+      name="Localidades - Municipio Patagones"
     />
     <meta
       content="Patagones, Municipalidad, Partido de Patagones, Carmen de Patagones"
@@ -44,14 +44,6 @@
 
   <body>
     <!--Volver al inicio del sitio sin scroll-->
-    <a
-      href="#up"
-      duraction="5000"
-      height-hide="900"
-      easing="easeInOutQuint"
-      class="simplescrollup__button simplescrollup__button--show"
-      ><i class="icon-circle-up"> </i
-    ></a>
     <!--<a class='flotante' href='#' ><img src='./assets/flecha-arriba.png' border="0"/></a>-->
     <header>
       <!--Cabecera del Sitio-->
@@ -135,12 +127,23 @@
                   </li>
                 </ul>
               </li>
-
               <li class="has-sub"><a title="" href="/index.html">Volver</a></li>
             </ul>
           </div>
         </aside>
-        <div id="map"></div>
+        <div id="localidad">
+          <div id="descripcion">
+            <textarea
+              name="leyenda"
+              id="leyenda"
+              cols="65"
+              rows="32"
+              placeholder="Oprima alguna localidad para obtener su descripcion correspondiente"
+              readonly
+            ></textarea>
+          </div>
+          <div id="map"></div>
+        </div>
       </div>
       <script type="text/javascript" src="/js/localidades.js"></script>
     </main>
