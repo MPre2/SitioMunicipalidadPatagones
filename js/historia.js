@@ -4,10 +4,12 @@ var historia = document.getElementById("historia"); // Seccion Historia
 var periodos = document.getElementById("periodosHistoricos"); // Seccion Periodos Historicos
 var sitios = document.getElementById("sitiosHistoricos"); // Seccion Sitios de interes
 var museos = document.getElementById("museos"); // Seccion Museos
+let pocoHistoria = document.getElementById("unPocoDeHistoria"); // Seccion "Un Poco de Historia..."
 let perHistoricos = document.getElementById("periodos"); // Textarea de la seccion de peridoos historicos
 
 periodos.style.display = "none";
 sitios.style.display = "none";
+pocoHistoria.style.display = "none";
 
 function verPeriodo() {
   periodos.style.display = "block";
@@ -15,7 +17,8 @@ function verPeriodo() {
   sitios.style.display = "none";
 }
 
-perHistoricos.addEventListener("click", function () { // Generamos el valor del Textarea dentro de la seccion Periodos Historicos y la mostramos
+perHistoricos.addEventListener("click", function () {
+  // Generamos el valor del Textarea dentro de la sección Periodos Historicos y la mostramos
   periodos.style.display = "block";
   historia.style.display = "none";
   sitios.style.display = "none";
@@ -234,5 +237,14 @@ function verSitios() {
   // Función donde se implementarían las distintas acciones para el muestreo de los sitios dependiendo del indice que se ingrese
   periodos.style.display = "none";
   historia.style.display = "none";
+  pocoHistoria.style.display = "none";
   sitios.style.display = "block";
+}
+
+function verHistoria() {
+  // Función donde se implementarían las distintas acciones para el muestreo del contenido de la seccion "Un Poco de Historia..." dependiendo del indice que se ingrese
+  periodos.style.display = "none";
+  sitios.style.display = "none";
+  pocoHistoria.style.display = "block";
+  historia.style.display = "none";
 }

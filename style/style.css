@@ -339,11 +339,13 @@ i {
 
 #periodosHistoricos {
   padding: 1%;
+  margin: 2%;
 }
 
 #sitiosHistoricos {
-  width: 75%;
-  padding: 2%;
+  width: 100%;
+  margin: 2%;
+  padding: 1%;
   text-align: justify;
 }
 
@@ -356,7 +358,7 @@ i {
 
 #leyendaPeriodosHistoricos {
   /*Textarea*/
-  width: 98%;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: medium;
@@ -392,6 +394,15 @@ i {
 }
 
 /*Fin sección Localidades*/
+
+/*Inicio de la sección Transparencia*/
+
+.principalTransparencias {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Fin de la sección Transparencia*/
 
 /*Estilo de banners informativos centrales*/
 .informativos {
