@@ -1,0 +1,43 @@
+/*MODULO DEDICADO AL ESTILO DEL LOS MICRO SITIOS DE TODAS LAS AREAS DE GOBIERNO*/
+
+/*AGENCIA DE RECAUDACION TRIBUTARIA*/
+/*Inicio*/
+#homeARM, #inspeccionHigiene{
+    padding: 2%;
+    text-align: justify;
+    margin: 1%; 
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+#inspeccionHigiene a {
+ text-decoration: none;
+}
+
+#inspeccionHigiene li {
+    list-style: disc;
+}
+
+#inspeccionHigiene ul {
+    padding-left: 2%;
+}
+
+#anexos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#anexos div {
+    padding: 1%;
+}
+/*Fin*/
