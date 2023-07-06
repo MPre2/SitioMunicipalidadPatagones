@@ -22,6 +22,7 @@ perHistoricos.addEventListener("click", function () {
   periodos.style.display = "block";
   historia.style.display = "none";
   sitios.style.display = "none";
+  pocoHistoria.style.display = "none";
   const descripcion = document.getElementById("leyendaPeriodosHistoricos");
   let texto = `Primer período histórico: 1779-1820
     Único Pueblo en la Patagonia defendiendo el dominio Español.

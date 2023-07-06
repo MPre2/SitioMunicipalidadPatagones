@@ -8,21 +8,21 @@
     <!-- Core Meta Data -->
     <meta content="HollowDevs" name="author" />
     <meta
-      content="Oficina Virtual de la Agencia de Recaudación Tributaria Municipal"
-      name="Oficina Virtual - ARM"
+      content="Oficina Virtual de la dirección de Recursos Humanos de la Municipalidad de Patagones"
+      name="Oficina Virtual - RRHH"
     />
     <meta
-      content="Patagones, Municipalidad, Partido de Patagones, Carmen de Patagones, ARM, oficina Virtual"
+      content="Patagones, Municipalidad, Partido de Patagones, Carmen de Patagones, Recursos Humanos, RRHH, oficina Virtual"
       name="keywords"
     />
     <!-- Open Graph Meta Data -->
     <meta
-      content="Oficina Virtual de la Agencia de Recaudación Tributaria Municipal"
+      content="Oficina Virtual de la dirección de Recursos Humanos de la Municipalidad de Patagones"
     />
     <meta content="HollowDevs" />
     <meta content="HollowDevs" />
     <meta content="website" />
-    <meta content="appARM.html" />
+    <meta content="appRRHH.html" />
     <!--Favicon-->
     <link rel="icon" type="image/png" href="/assets/favicon.png" />
     <!--Styles-->
@@ -32,24 +32,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!--Site Name-->
-    <title>Oficina Virtual - Agencia Recaudación Municipal</title>
+    <title>Oficina Virtual - Dirección de Recursos Humanos</title>
   </head>
 
   <body>
     <header>
-      <h2>Oficina Virtual - Agencia Recaudación Municipal</h2>
+      <h2>Oficina Virtual - Dirección de Recursos Humanos</h2>
     </header>
 
     <main>
-      <div id="ingreso">
-        <!--IMPLEMENTAR MODULO PARA CORROBORAR USUARIO VALIDO / EXTRAER DATOS DE USUARIO DE LOS INICIOS CON REDES SOCIALES-->
+      <div id="ingreso"> <!--IMPLEMMENTAR MODULO PARA CORROBORAR USUARIO VALIDO / EXTRAER DATOS DE USUARIO DE LOS INICIOS CON REDES SOCIALES-->
         <div class="form-container" tabindex="0">
           <div class="form-container__block">
             <div class="form-container__header">
               <p>Ingrese con su cuenta</p>
               <form class="form-container__form">
-                <input placeholder="Email" type="email" required />
-                <input placeholder="Contraseña" type="password" required />
+                <input placeholder="Email" type="email" />
+                <input placeholder="Contraseña" type="password" />
                 <div class="form-container__register-buttons">
                   <button class="form-container__sign">Ingresar</button>
                   <a
@@ -58,10 +57,7 @@
                     onclick="verSeccion(0)"
                     >Registro</a
                   >
-                  <a
-                    class="form-container__sign forgot"
-                    href="#"
-                    onclick="verSeccion(2)"
+                  <a class="form-container__sign forgot" href="#"
                     >Restablecer Contraseña</a
                   >
                 </div>
@@ -117,9 +113,8 @@
                         fill="#d93f21"
                         d="M354.932 135.693c6.643 5.472 16.299 5.077 22.383-1.008l47.27-47.27c6.903-6.904 6.411-18.205-.963-24.603C378.507 23.672 319.807 0 256 0v100.174c37.53 0 72.005 13.336 98.932 35.519z"
                       ></path>
-                    </g>
-                  </svg>
-                  <span>Google</span>
+                    </g></svg
+                  ><span>Google</span>
                 </button>
                 <button>
                   <svg
@@ -165,8 +160,7 @@
           </div>
         </div>
       </div>
-      <div id="registro">
-        <!--IMPLEMENTAR MODULO PARA EL ALTA DEL USUARIO MEDIANTE CORREO ELECTRÓNICO-->
+      <div id="registro"> <!--IMPLEMENTAR MODULO PARA EL ALTA DEL USUARIO MEDIANTE CORREO ELECTRONICO-->
         <form class="form">
           <p class="title">Registro</p>
           <p class="message">Registrese y tenga acceso total a nuestra App.</p>
@@ -198,26 +192,17 @@
           </p>
         </form>
       </div>
-      <div id="olvido">
-        <!--IMPLEMENTAR LOS MÓDULOS PARA EL MANEJO DE LOS DATOS DE USUARIO / CHEQUEAR QUE SEA USUARIO EXISTENTE / ENVIÓ DE MAIL CON CLAVE PROVISORIA / ALTA DE NUEVA CLAVE Y BAJA DE LA ANTERIOR-->
+      <div id="olvido"> <!--IMPLMENTAR LOS MODULOS PARA EL MANEJO DE LOS DATOS DE USUARIO / CHEQUEAR QUE SEA USUARIO EXISTENTE / ENVIO DE MAIL CON CLAVE PROVISORIA / ALTA DE NUEVA CLAVE Y BAJA DE LA ANTERIOR-->
         <div class="form-container" tabindex="0">
           <div class="form-container__block">
             <div class="form-container__header">
               <p>Olvido de Clave</p>
               <form class="form-container__form">
-                <input placeholder="Email" type="email" required />
-                <input
-                  placeholder="Clave enviada al Email"
-                  type="key"
-                  required
-                />
-                <input
-                  placeholder="Nueva Contraseña"
-                  type="password"
-                  required
-                />
+                <input placeholder="Email" type="email" />
+                <input placeholder="Clave enviada al Email" type="password" />
+                <input placeholder="Nueva Contraseña" type="password" />
                 <div class="form-container__register-buttons">
-                  <button class="form-container__sign">Guardar</button>
+                  <button class="form-container__sign" onclick="verSeccion(1)">Guardar</button>
                 </div>
               </form>
             </div>
