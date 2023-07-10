@@ -41,14 +41,15 @@
     </header>
 
     <main>
-      <div id="ingreso"> <!--IMPLEMMENTAR MODULO PARA CORROBORAR USUARIO VALIDO / EXTRAER DATOS DE USUARIO DE LOS INICIOS CON REDES SOCIALES-->
+      <div id="ingreso">
+        <!--IMPLEMENTAR MODULO PARA CORROBORAR USUARIO VALIDO / EXTRAER DATOS DE USUARIO DE LOS INICIOS CON REDES SOCIALES-->
         <div class="form-container" tabindex="0">
           <div class="form-container__block">
             <div class="form-container__header">
               <p>Ingrese con su cuenta</p>
               <form class="form-container__form">
-                <input placeholder="Email" type="email" />
-                <input placeholder="Contraseña" type="password" />
+                <input placeholder="Email" type="email" required />
+                <input placeholder="Contraseña" type="password" required />
                 <div class="form-container__register-buttons">
                   <button class="form-container__sign">Ingresar</button>
                   <a
@@ -57,7 +58,10 @@
                     onclick="verSeccion(0)"
                     >Registro</a
                   >
-                  <a class="form-container__sign forgot" href="#"
+                  <a
+                    class="form-container__sign forgot"
+                    href="#"
+                    onclick="verSeccion(2)"
                     >Restablecer Contraseña</a
                   >
                 </div>
@@ -113,8 +117,9 @@
                         fill="#d93f21"
                         d="M354.932 135.693c6.643 5.472 16.299 5.077 22.383-1.008l47.27-47.27c6.903-6.904 6.411-18.205-.963-24.603C378.507 23.672 319.807 0 256 0v100.174c37.53 0 72.005 13.336 98.932 35.519z"
                       ></path>
-                    </g></svg
-                  ><span>Google</span>
+                    </g>
+                  </svg>
+                  <span>Google</span>
                 </button>
                 <button>
                   <svg
@@ -160,30 +165,31 @@
           </div>
         </div>
       </div>
-      <div id="registro"> <!--IMPLEMENTAR MODULO PARA EL ALTA DEL USUARIO MEDIANTE CORREO ELECTRONICO-->
+      <div id="registro">
+        <!--IMPLEMENTAR MODULO PARA EL ALTA DEL USUARIO MEDIANTE CORREO ELECTRÓNICO-->
         <form class="form">
           <p class="title">Registro</p>
           <p class="message">Registrese y tenga acceso total a nuestra App.</p>
           <div class="flex">
             <label>
-              <input required="" placeholder="" type="text" class="input" />
+              <input required placeholder="" type="text" class="input" />
               <span>Nombre</span>
             </label>
             <label>
-              <input required="" placeholder="" type="text" class="input" />
+              <input required placeholder="" type="text" class="input" />
               <span>Apellido</span>
             </label>
           </div>
           <label>
-            <input required="" placeholder="" type="email" class="input" />
+            <input required placeholder="" type="email" class="input" />
             <span>Email</span>
           </label>
           <label>
-            <input required="" placeholder="" type="password" class="input" />
+            <input required placeholder="" type="password" class="input" />
             <span>Contraseña</span>
           </label>
           <label>
-            <input required="" placeholder="" type="password" class="input" />
+            <input required placeholder="" type="password" class="input" />
             <span>Confirme contraseña</span>
           </label>
           <button class="submit">Enviar</button>
@@ -192,17 +198,28 @@
           </p>
         </form>
       </div>
-      <div id="olvido"> <!--IMPLMENTAR LOS MODULOS PARA EL MANEJO DE LOS DATOS DE USUARIO / CHEQUEAR QUE SEA USUARIO EXISTENTE / ENVIO DE MAIL CON CLAVE PROVISORIA / ALTA DE NUEVA CLAVE Y BAJA DE LA ANTERIOR-->
+      <div id="olvido">
+        <!--IMPLEMENTAR LOS MÓDULOS PARA EL MANEJO DE LOS DATOS DE USUARIO / CHEQUEAR QUE SEA USUARIO EXISTENTE / ENVIÓ DE MAIL CON CLAVE PROVISORIA / ALTA DE NUEVA CLAVE Y BAJA DE LA ANTERIOR-->
         <div class="form-container" tabindex="0">
           <div class="form-container__block">
             <div class="form-container__header">
               <p>Olvido de Clave</p>
               <form class="form-container__form">
-                <input placeholder="Email" type="email" />
-                <input placeholder="Clave enviada al Email" type="password" />
-                <input placeholder="Nueva Contraseña" type="password" />
+                <input placeholder="Email" type="email" required />
+                <input
+                  placeholder="Clave enviada al Email"
+                  type="password"
+                  required
+                />
+                <input
+                  placeholder="Nueva Contraseña"
+                  type="password"
+                  required
+                />
                 <div class="form-container__register-buttons">
-                  <button class="form-container__sign" onclick="verSeccion(1)">Guardar</button>
+                  <button class="form-container__sign" onclick="verSeccion(1)">
+                    Guardar
+                  </button>
                 </div>
               </form>
             </div>
