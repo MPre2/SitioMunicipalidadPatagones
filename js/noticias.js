@@ -1,5 +1,4 @@
-
-/*MÉTODO PARA LA GENERACIÓN DE LAS TARJETAS DE NOTICIAS QUE SE VAN A VISUALIZAR TANTO EN LA PAGINA PRINCIPAL Y LA SECCIÓN DE NOTICIAS*/
+/*MODULO PARA LA GENERACIÓN DE LAS TARJETAS DE NOTICIAS QUE SE VAN A VISUALIZAR TANTO EN LA PAGINA PRINCIPAL COMO EN LA SECCIÓN DE NOTICIAS*/
 
 /*MÉTODO XMLHttpRequest para consumo de API REST*/
 const request = new XMLHttpRequest();
@@ -17,8 +16,6 @@ request.onload = function () {
     contenedor.setAttribute("class", "card-columns");
 
     //Con el .ForEach traemos todos los registros del Json
-    //Implementar en la sección interna de noticias
-    //data.forEach => {
 
     //Con el .some traemos solo una cierta cantidad de registros determinados por el desarrollador
     data.data.some(function (id, index) {
@@ -71,7 +68,6 @@ request.onload = function () {
       } else {
         return index === 5;
       }
-      
     });
   } else {
     //Generamos una advertencia en caso de que no retorne valor alguno desde el API
@@ -90,8 +86,8 @@ request.send();
 //Funciones para el cambio de pages desde el home del sitio
 var partido = document.getElementById("elPartido");
 var noticias = document.getElementById("noticias");
-partido.style.display ="none"
+partido.style.display = "none";
 function pageChanger(e) {
-  noticias.style.display= "none";
+  noticias.style.display = "none";
   partido.style.display = "block";
 }

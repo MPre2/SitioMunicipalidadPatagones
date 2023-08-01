@@ -1,4 +1,4 @@
-// MODULO PARA EL MANEJO DEL MAPA EN EL MICRO SITIO "LOCALIDADES", UTILIZANDO LIBRERIA "LEAFLET"
+// MODULO PARA EL MANEJO DEL MAPA EN EL MICRO SITIO "LOCALIDADES", UTILIZANDO LIBRERÍA "LEAFLET"
 
 var map = L.map("map").setView([-40.14538573958882, -62.908983274880484], 8); // Generamos el Mapa
 
@@ -14,7 +14,8 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 L.marker([-40.79584507667954, -62.98573771152871]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Carmen de Patagones</b><br>Fundada el 22 de Abril de 1779")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `En el sur en el siglo XVIII
     El río salado era el límite entre el territorio efectivamente gobernado por los españoles y el suelo aún en poder de los indígenas. En esa inmensa extensión de tierra todavía sin conquistar, se distinguían dos regiones: la pampa o las pampas, y la PATAGONIA.
@@ -214,7 +215,8 @@ L.marker([-40.79584507667954, -62.98573771152871]) // Generamos un marcador dent
 L.marker([-39.914063647089854, -62.625465917629185]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Villalonga</b><br>Fundada el 29 de Mayo de 1929")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `A cinco kilómetros de la actual localidad de Villalonga existió un asentamiento poblacional, como una etapa de avance de la civilización. En 1885 funcionaba allí una oficina de telégrafo y se denomina al lugar "Los Pozos". En 1913 se amplio el recorrido ferroviario desde Pedro Luro hasta Stroeder, incluyendo la estación de Villalonga ubicada entre Igarzabal y Emilio Lamarca.
 
@@ -236,7 +238,8 @@ L.marker([-39.914063647089854, -62.625465917629185]) // Generamos un marcador de
 L.marker([-40.18301969124652, -62.621369149030876]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Stroeder</b><br>Fundada el 11 de Noviembre de 1913")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `Hugo Stroeder, Germano de buena cepa, visionario o aventurero, supo desde muy joven de la existencia de la Argentina y entre los años 1870 y 1880 se instala en la Capital Federal como uno de los negocios más rentables de aquellas épocas: La Colonización.
 
@@ -303,7 +306,8 @@ L.marker([-40.18301969124652, -62.621369149030876]) // Generamos un marcador den
 L.marker([-40.650969261445454, -62.75426216456412]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Cardenal Cagliero</b><br>Fundada el 16 de Diciembre de 1949")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `Cardenal Cagliero tiene la peculiaridad de haber sido creada por un acto deliberado del estado provincial a través de un decreto del gobernador.
 
@@ -316,7 +320,8 @@ L.marker([-40.650969261445454, -62.75426216456412]) // Generamos un marcador den
 L.marker([-39.599759584586195, -62.65158757096641]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Juan A. Pradere</b><br>Fundada el 05 de Diciembre de 1913")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `La Localidad de Juan A. Pradere fue fundada el 5 de diciembre del año 1913 y su nombre se debe al reconocimiento oficial y comunitario a Don Juan Pradere, donante de las tierras que utilizó el Ferrocarril del Sud para construir la estación en el lugar. Está ubicada a unos 128 Km., de Carmen de Patagones.
 
@@ -336,7 +341,8 @@ L.marker([-39.599759584586195, -62.65158757096641]) // Generamos un marcador den
 L.marker([-40.5584423470003, -62.235608597636634]) // Generamos un marcador dentro del mapa
   .addTo(map)
   .bindPopup("<b>Bahia San Blas</b><br>Fundada el 18 de Octubre de 1821.")
-  .openPopup().addEventListener("click", function () {
+  .openPopup()
+  .addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `Completar Descripcion`;
     leyenda.value = texto;
@@ -344,7 +350,7 @@ L.marker([-40.5584423470003, -62.235608597636634]) // Generamos un marcador dent
 
 L.marker([-40.4340907845137, -62.54466151818412]) // Generamos un marcador dentro del mapa
   .addTo(map)
-  .bindPopup("Jose B. Casas")
+  .bindPopup("<b>Jose B. Casas</b><br>Fundada en...")
   .openPopup().addEventListener("click", function () {
     const leyenda = document.getElementById("leyenda");
     let texto = `Completar Descripcion`;

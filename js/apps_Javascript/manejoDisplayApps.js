@@ -1,6 +1,6 @@
 //MODULO PARA EL MANEJO DE LAS VISTAS DE LAS APLICACIONES INTERNAS DEL SITIO
 
-//ARM
+//ARM - RRHH
 let ingreso = document.getElementById("ingreso"); //Div de Ingreso
 let registro = document.getElementById("registro"); //Div de Registro
 let olvido = document.getElementById("olvido");

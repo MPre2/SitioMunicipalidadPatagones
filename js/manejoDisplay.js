@@ -8,5 +8,5 @@ arm_higiene.style.display = "none";
 
 function verSeccion() {
   arm_home.style.display = "none";
-  arm_higiene.style.display = "block"
+  arm_higiene.style.display = "block";
 }
