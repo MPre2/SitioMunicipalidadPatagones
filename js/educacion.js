@@ -64,7 +64,7 @@ function tablaEscuelas(nivel) {
     contenedor.setAttribute("class", "card-columns-school");
 
     //let container = document.getElementById("school"); //Definimos el espacio donde se van a volcar los datos
-    contenedor.innerHTML = html; // Volvamos los datos obtenidos
+    contenedor.innerHTML = html; // Volcamos los datos obtenidos
     historia.style.display = "none"; // Bloqueamos la vista al objeto
   };
 }

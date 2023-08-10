@@ -105,7 +105,7 @@ L.marker([-40.79584507667954, -62.98573771152871]) // Generamos un marcador dent
     
     El 9 de junio de 1779 comenzó a soplar un fuerte viento que embraveció las olas provocadas por la marea. El día 13, a las 23, el agua contenida por el viento sur salió de madre y lo inundó todo. Felizmente el centinela dio la alarma y la gente se salvó en el techo del almacén. Del suceso se salvaron los víveres pues no se habían desembarcado, no así 200 panes y 2 quintales de galletas que estaban en el horno.
     
-    Si bien la inundación duró nada más que media hora, Viedma comprendió que el río sería su constante enemigo, por lo que, con dolor, "DETERMINO MUDAR LA POBLACIÓN A LA PARTE NORTE EN CUYA MARGEN SOLAMENTE SE ENCUENTRAN SITIOS DONDE CON SEGURIDAD SE PUEDE ESTAR SIN INUNDACIÓN ALGUNA", y señala el propio fundador: "AUNQUE CARECE DE AQUELLA TAN DILATADA, LLANA Y FERTIL SITUACION DE LA OTRA BANDA".
+    Si bien la inundación duró nada más que media hora, Viedma comprendió que el río sería su constante enemigo, por lo que, con dolor, "DETERMINO MUDAR LA POBLACIÓN A LA PARTE NORTE EN CUYA MARGEN SOLAMENTE SE ENCUENTRAN SITIOS DONDE CON SEGURIDAD SE PUEDE ESTAR SIN INUNDACIÓN ALGUNA", y señala el propio fundador: "AUNQUE CARECE DE AQUELLA TAN DILATADA, LLANA Y FÉRTIL SITUACIÓN DE LA OTRA BANDA".
     
     El traslado
     Viedma encargó al comandante de la tropa, oficial de infantería José Martí, que inspeccionara la banda norte a fin de proceder al traslado de fuerte y población. El día 15 de junio estaba, acompañado por el piloto Manuel Bruñel, el sargento José Michán y un conocedor de la zona llamado José Puche, buscando lugar apropiado para levantar definitivamente el establecimiento.
@@ -129,7 +129,7 @@ L.marker([-40.79584507667954, -62.98573771152871]) // Generamos un marcador dent
     
     Esas familias venían de España -dijimos-, de Galicia, de Zamora, de Castilla la Vieja, de Leon. A raíz de la presencia de algunas originarias de la Maragatería (comarca de la provincia de Leon) a los nacidos en Patagones se los llama maragatos. Cabe aclarar aquí que el pueblo maragato es, según algunos investigadores, de raza  árabe; volcado al catolicismo fue perseguido por sus hermanos de sangre y se tuvo que refugiar en las regiones montañosas del norte de España desde donde se incorporó a la corriente inmigratoria hacia la Patagonia.
     
-    Como es lógico, con esas familias llegaron a las márgenes rionegrinas las primeras mujeres blancas. Cuenta la historia que "APENAS LOS INDIOS VIERON MUJERES COMENZARON A EXASPERARSE PORQUE DECIAN QUE AHORA CAIAN EN LA CUENTA DE QUE VENIAN A QUITARLES SUS TIERRAS". Y agrega: "Y SIN MAS SALIERON CAMPO AFUERA DANDO ALARIDOS. SE LLEVARON SEIS CABALLOS Y AMENAZARON CON VOLVER EN NUMERO PARA ASALTAR". Felizmente don Francisco de Viedma que conocía ya algunas facetas del carácter de los aborígenes los llenó de regalos, les envió un barril de aguardiente y chucherías y renació la calma.
+    Como es lógico, con esas familias llegaron a las márgenes rionegrinas las primeras mujeres blancas. Cuenta la historia que "APENAS LOS INDIOS VIERON MUJERES COMENZARON A EXASPERARSE PORQUE DECÍAN QUE AHORA CAIAN EN LA CUENTA DE QUE VENIAN A QUITARLES SUS TIERRAS". Y agrega: "Y SIN MAS SALIERON CAMPO AFUERA DANDO ALARIDOS. SE LLEVARON SEIS CABALLOS Y AMENAZARON CON VOLVER EN NUMERO PARA ASALTAR". Felizmente don Francisco de Viedma que conocía ya algunas facetas del carácter de los aborígenes los llenó de regalos, les envió un barril de aguardiente y chucherías y renació la calma.
     
     La presencia de estas familias salvó la Patagonia -ya lo dijimos- para España primero, para la argentinidad después. Por ello acomodar nuestra conducta al ejemplo de tenacidad, de constancia, de responsabilidad, de amor a la tierra que nos legaron, es asegurarnos una formación espiritual digna de nuestros mayores.
     
@@ -181,7 +181,7 @@ L.marker([-40.79584507667954, -62.98573771152871]) // Generamos un marcador dent
     
     Así sorprendió a Patagones la Revolución de Mayo. Dijimos una vez que este hecho paso poco menos que inadvertido para el pueblo Maragato, tal era su lejanía del escenario en el que tuvo lugar; pero cuando llego a su conocimiento solo pudo originar en él sentimientos de rechazo, ya que un movimiento de esa naturaleza constituía para un pueblo como el de Patagones, respetuoso de su origen y amante profundo de sus tradiciones, un acto de indisciplina hacia el rey, hacia sus costumbres, hacia su fe religiosa.
     
-    Esta actitud mental y emotiva lo llevo a apoyar la sublevacio0n de tres políticos deportados en la población, quienes pensaron devolver a España las regiones patagónicas gobernadas por un militar patriota desde fines del año 1810.
+    Esta actitud mental y emotiva lo llevo a apoyar la sublevación de tres políticos deportados en la población, quienes pensaron devolver a España las regiones patagónicas gobernadas por un militar patriota desde fines del año 1810.
     
     El 21 de abril de 1812 tres distinguidos españoles prisioneros en Patagones, con la complicidad de la guarnición y el pueblo todo, se apoderaron de la fortaleza, y dejando un comandante militar que respondía a sus aspiraciones, el sargento Domingo Fernández, emprendieron viaje a Montevideo.
     
